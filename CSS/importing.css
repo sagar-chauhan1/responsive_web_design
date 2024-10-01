@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(252, 193, 193);
+}
+table{
+    border-collapse:collapse;
+    background-color:rgb(251, 172, 239);
+    height: 200px;
+    width:350px;
+}
+th{
+    color: rgb(7, 54, 172);
+}
+td{
+    color:rgb(129, 55, 198);
+}

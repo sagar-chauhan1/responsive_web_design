@@ -1,0 +1,14 @@
+body{
+    margin: auto;
+}
+table{
+    height:710px;
+    width:500px;
+    font-size: large;
+}
+table{
+    background-color: rgb(187, 153, 218);
+}
+td{
+    color: rgb(5, 35, 134);
+}

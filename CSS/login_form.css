@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background: url(photo.jpeg) no-repeat center fixed;
+    background-size: cover;
+    font-weight: 100;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+form{
+    height: 500px;
+    width: 500px;
+    text-align: left;
+    color:white;
+    margin-left: 500px;
+}
+div{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+button{
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 4, 73);
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+}
+ 
+#box{
+    align-items: center;
+}
+
+
+
+

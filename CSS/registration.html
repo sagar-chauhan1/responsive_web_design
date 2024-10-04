@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body{
+            background-color: rgb(177, 135, 216);
+        }
+        table{
+            height: 400px;
+            width: 500px;
+            font-size: large;
+            background-color: white;
+            padding-left: 30px;
+            padding-bottom: 20px;
+        }
+        th{
+            text-align: left;
+            font-size: x-large;
+        }
+        button{
+            height: 30px;
+            width: 440px;
+            background-color: rgb(194, 144, 241);
+            color: white;
+            font-size: medium;
+        }
+        input{
+            padding: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <th>Registration</th>
+        </tr>
+        <tr>
+            <td>Full name<br>
+                <input type="text" name="full name" placeholder="Enter your name" size="24">
+            </td>
+            <td>Username<br>
+                <input type="text" name="username" placeholder="Enter your username" size="24">
+            </td>
+            <tr>
+                <td>Email<br>
+                <input type="text" name="email" placeholder="Enter your email" size="24">
+                </td>
+                <td>Phone Number<br>
+                <input type="text" name="Number" placeholder="Enter your Number" size="24">
+                </td>
+            </tr>
+            <tr>
+                <td>Password<br>
+                <input type="text" name="password" placeholder="Enter your password" size="24">
+                </td>
+                <td>Confirm Password<br>
+                <input type="text" name="password" placeholder="Confirm your password" size="24">
+                </td>
+            </tr>
+                <td><label name="Gender">Gender</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="Gender" value="Male"> 
+                    <label name="Male">Male</label>
+                    <input type="radio" name="Gender" value="Female">
+                    <label name="female">Female</label>
+                    <input type="radio" name="Gender" value="Other">
+                    <label name="Other">Other</label>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <button>register</button>
+                </td>
+            </tr>
+        
+        
+    </table>
+</body>
+</html>

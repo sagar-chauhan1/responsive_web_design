@@ -22,19 +22,24 @@ form{
 }
 div{
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 button{
     text-align: center;
     color: white;
     background-color: rgb(4, 4, 73);
-    width: 500px;
+    width: 520px;
     height: 35px;
     font-size: 20px;
 }
  
 #box{
-    align-items: center;
+    margin-left: 250px;
+}
+
+.text input{
+    height: 30px; 
+    padding-left: 15px;
 }
 
 

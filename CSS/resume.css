@@ -1,0 +1,30 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 680px;
+    width: 600px;
+    display: flex;
+    font-size: 1.1em;
+}
+
+th{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(237, 231, 231);
+}
+#hr{
+    margin-top: 110px;
+}
+h3{
+    margin: 0px;
+}
+#div1{
+    height: 550px;
+    
+}
+
+body {
+margin-left: 400px;
+}

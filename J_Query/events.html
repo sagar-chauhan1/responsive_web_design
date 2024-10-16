@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function()
+    {
+        $("p").mouseenter(function(){
+            $("ul").slideDown();
+    });
+        $("p").mouseleave(function(){
+            $("ul").slideUp();
+        });
+    });
+    </script>
+    <p>j_query</p>
+    <ul>
+        <li>javascript framwork</li>
+        <li>javascript library</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label name="fname">First name </label></td>
+                <td><input type="text" name="fname" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><label name="lname">Last name </label></td>
+                <td><input type="text" name="lname" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><label name="date">Date of birth </label></td>
+                <td><input type="datetime-local" name="date"></td>
+            </tr>
+            <tr>
+                <td><label name="email">Email id</label></td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label name="num">Mobile Number </label></td>
+                <td><input type="text" name="num" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label name="Gender">Gender </label></td>
+                <td>Male<input type="radio" name="Gender" >
+                    Female<input type="radio" name="Gender" >
+                    Other<input type="radio" name="Gender" ></td>
+            </tr>
+            <tr>
+                <td><label name="Address">Address </label></td>
+                <td><textarea name="Address" rows="3" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label name="city">City </label></td>
+                <td><input type="text" name="city" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><label name="Pin Code">Pin Code </label></td>
+                <td><input type="text" name="pin" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td><label name="state">State </label></td>
+                <td><input type="text" name="state" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><label name="Country">Country </label></td>
+                <td><input type="text" name="Country" placeholder="india" readonly></td>
+            </tr>
+            <tr>
+                <td><label name="Hobbies">Hobbies </label></td>
+                <td>Drawing<input type="checkbox" name="Hobbies" value="Drawing">
+                    Singing<input type="checkbox" name="Hobbies" value="Singing">
+                    Dancing<input type="checkbox" name="Hobbies" value="Dancing">
+                    Sketching<input type="checkbox" name="Hobbies" value="Sketching"><br>
+                    Others<input type="checkbox" name="Hobbies" value="Others">
+                    <input type="text" name="Hobbies"></td>
+            </tr>
+            <tr>
+             <td><label name="Qualification">Qualification</label></td>
+                <td><table><tr><th>Sr.No</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr><td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="Board"></td>
+                    <td><input type="text" name="Percentage"></td>
+                    <td><input type="text" name="Year of Passing"></td>
+                </tr>
+                <tr><td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="Board"></td>
+                    <td><input type="text" name="Percentage"></td>
+                    <td><input type="text" name="Year of Passing"></td>
+                </tr>
+                <tr><td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="Board"></td>
+                    <td><input type="text" name="Percentage"></td>
+                    <td><input type="text" name="Year of Passing"></td>
+                </tr>
+                <tr><td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="Board"></td>
+                    <td><input type="text" name="Percentage"></td>
+                    <td><input type="text" name="Year of Passing"></td>
+                </tr>
+                </td>
+                </table>
+                </tr>
+            <tr>
+                <td><label name="coures">Courees<br>Applied form </label></td>
+                <td>BCA<input type="radio" name="coures" value="bca">
+                    B.Com<input type="radio" name="coures" value="b.com">
+                    B.Sc<input type="radio" name="coures" value="b.sc">
+                    B.A<input type="radio" name="coures" value="b.a"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="button">
+                    <input  type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

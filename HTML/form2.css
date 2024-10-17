@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    height: 700px;
+    width: 800px;
+    background-color: rgb(159, 91, 222);
+    font-size: large;
+}
+td{
+    padding: 3px;
+}
+#button{
+    padding-left: 200px;
+}
